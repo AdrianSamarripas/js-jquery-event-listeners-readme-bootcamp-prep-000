@@ -15,5 +15,5 @@ $('p').on('click', function getIt(){
 })
 
 function frameIt(){
-  <img class = toasty/img>;
+  (img class = tasty);
 }
