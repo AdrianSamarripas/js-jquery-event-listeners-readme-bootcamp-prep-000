@@ -19,6 +19,6 @@ $('img') + $('#tasty');
 }
 
 $('img').on('load', function frameIt(){
-  $('img') + $('#tasty');
+  $('img').addClass('#tasty');
   return;
 })
