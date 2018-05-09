@@ -25,8 +25,8 @@ $('img').on('load', function frameIt(){
 
 
 function pressIt(){
-  $('#typing').on('keypress', function(key){
-    if(key.which === 71){
+  $('#typing').on('keypress', function(press){
+    if(press.which === 71){
       alert("You're a G!");
     }
   });
