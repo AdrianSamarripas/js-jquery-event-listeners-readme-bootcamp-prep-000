@@ -25,7 +25,9 @@ $('img').on('load', function frameIt(){
 
 
 function pressIt(){
-  
+    if (key.which === 71){
+    return alert("You're a G!");
+  }
 }
 
 $('#typing').on('keydown', function pressIt(key){
