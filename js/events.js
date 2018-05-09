@@ -24,13 +24,16 @@ $('img').on('load', function frameIt(){
 })
 
 
-function pressIt(){
-  $('form').on('keypress', function(key){
-    if(key.which === 71){
-      alert("You're a G!");
-    }
-  });
-}
+
+
+
+//function pressIt(){
+//  $('form').on('keypress', function(key){
+//    if(key.which === 71){
+//      alert("You're a G!");
+//    }
+//  });
+//}
 
 
 function submitIt(){
