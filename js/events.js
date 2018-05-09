@@ -14,11 +14,7 @@ $('p').on('click', function getIt(){
     return alert("Hey!");
 })
 
-function frameIt(){
-$('img') + $('#tasty');
-}
 
 $('img').on('load', function frameIt(){
-  $('img').addClass('#tasty');
-  return;
+  $('img').addClass('tasty');
 })
