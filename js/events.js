@@ -24,14 +24,10 @@ $('img').on('load', function frameIt(){
 })
 
 
-function pressIt(press){
-    if (press.which === 71){
-    return alert("You're a G!");
-  }
+function pressIt(){
+  $('#typing').on('keypress', function(key){
+    if(key.which === 71){
+      alert("You're a G!");
+    }
+  });
 }
-
-$('#typing').on('keydown', function pressIt(press){
-  if (press.which === 71){
-    return alert("You're a G!");
-  }
-})
