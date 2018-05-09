@@ -23,23 +23,14 @@ $('img').on('load', function frameIt(){
   $('img').addClass('tasty');
 })
 
-function pressIt() {
-  $('#typing').on("keydown", function(press) {
-    if (press.which === 71) {
-      alert("You have entered g.");
+
+function pressIt(){
+  $('form').on('keydown', function(key){
+    if(key.which === 71){
+      alert("You're a G!");
     }
-  })
+  });
 }
-
-
-
-//function pressIt(){
-//  $('form').on('keypress', function(key){
-//    if(key.which === 71){
-//      alert("You're a G!");
-//    }
-//  });
-//}
 
 
 function submitIt(){
