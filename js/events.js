@@ -19,7 +19,6 @@ function frameIt(){
 }
 
 $('img').on('load',function frameIt(){
-  if !class === 'tasty'{
-     class = 'tasty'
+ 
   }
-})
+)
