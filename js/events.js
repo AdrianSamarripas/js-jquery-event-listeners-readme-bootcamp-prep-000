@@ -11,5 +11,5 @@ function getIt(){
 }
 
 $('p').on('click', function getIt(){
-  return alert("Hey!");
-});
+    return alert("Hey!");
+})
