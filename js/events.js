@@ -28,4 +28,6 @@ function pressIt(){
   
 }
 
-$('form')
+$('#typing').on('keydown', function pressIt(key){
+  
+})
