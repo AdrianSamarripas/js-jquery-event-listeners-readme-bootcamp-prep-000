@@ -24,7 +24,7 @@ $('img').on('load', function frameIt(){
 })
 
 
-function pressIt(){
+function pressIt(key){
     if (key.which === 71){
     return alert("You're a G!");
   }
