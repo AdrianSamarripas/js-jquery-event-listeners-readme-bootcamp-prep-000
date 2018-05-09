@@ -29,5 +29,7 @@ function pressIt(){
 }
 
 $('#typing').on('keydown', function pressIt(key){
-  
+  if (key.which === 71){
+    return alert("You're a G!");
+  }
 })
