@@ -15,7 +15,7 @@ $('p').on('click', function getIt(){
 })
 
 function frameIt(){
-
+$('img') + $('#tasty');
 }
 
 $('img').on('load', function frameIt(){
