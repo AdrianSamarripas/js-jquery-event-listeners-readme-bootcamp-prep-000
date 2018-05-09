@@ -19,5 +19,5 @@ function frameIt(){
 }
 
 $('img').on('load', function frameIt(){
-  return $(#tasty)
+  return $('#tasty');
 })
